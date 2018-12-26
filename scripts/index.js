@@ -5,7 +5,7 @@ var animation = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: '/scripts/data.json' // the path to the animation json
+  path: './scripts/data.json' // the path to the animation json
 });
 
 button.addEventListener("click", function () {
