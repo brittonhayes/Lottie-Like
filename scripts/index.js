@@ -5,7 +5,7 @@ var heartAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: './scripts/heart.json' // the path to the animation json
+  path: './scripts/finger.json' // the path to the animation json
 });
 
 var santaAnim = lottie.loadAnimation({
@@ -23,7 +23,7 @@ button.addEventListener("click", function () {
 });
 
 animation.addEventListener("complete", function () {
-  lottie.goToAndStop(2100)
+  lottie.goToAndStop(1000)
 });
 
 
