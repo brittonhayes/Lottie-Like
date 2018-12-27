@@ -25,7 +25,8 @@
 </head>
 
 <body>
-  <section class="hero is-fullwidth is-fullheight is-warning is-bold">
+  <!--hero section -->
+  <section class="hero is-fullwidth is-link is-bold">
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 data-tilt data-tilt-max="0" data-tilt-scale="1.1" data-tilt-easing="ease-in-out" id="title" class="title is-1">Lottie
@@ -34,16 +35,24 @@
           fast. fun.</h2>
         <div data-tilt data-tilt-max="0" data-tilt-scale="1.2" data-tilt-easing="ease-in-out" id="clickMe" class="card-2 button is-light is-large is-rounded"
           onclick="displayHeart()">
+          <!-- like button -->
           <span id="like" class="innerTilt has-text-dark">
-            <strong> like</strong>
+            <strong>like</strong>
           </span>
-          <!-- <i  id="noClick" class="fas fa-heart has-text-grey"></i> -->
+          <!-- heart animation -->
           <div id="bm" href="#">
           </div>
         </div>
-        <div id="china" href="#">
-        </div>
       </div>
+    </div>
+    <!-- santa animation -->
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <p class="bd-notification is-primary">
+          <div id="santa"></div>
+        </p>
+      </div>
+    </div>
   </section>
 
   <!-- inlineScripts -->
