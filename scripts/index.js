@@ -8,16 +8,17 @@ var heartAnim = lottie.loadAnimation({
   path: './scripts/heart.json' // the path to the animation json
 });
 
-var chinaAnim = lottie.loadAnimation({
-  container: document.getElementById('china'),
+var santaAnim = lottie.loadAnimation({
+  container: document.getElementById('santa'),
   renderer: 'svg',
   loop: false,
-  autoplay: true,
-  path: './scripts/china.json' // the path to the animation json
+  autoplay: false,
+  path: './scripts/santa.json' // the path to the animation json
 });
 
 button.addEventListener("click", function () {
   lottie.play(),
+  santaAnim.play(),
   document.getElementById("like").innerHTML = "";
 });
 
