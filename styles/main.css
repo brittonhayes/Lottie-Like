@@ -1,35 +1,19 @@
-
 /* Main */
 body,
 html {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* Elements */
 #bm {
   width: 2em;
   display: none;
-  /* margin-left: auto;
-  margin-right: auto; */
-}
-
-#santa {
-
 }
 
 /* interactions */
-#clickMe {
-  transform-style: preserve-3d;
-  /* box-shadow: 0px 5px 30px 3px rgba(0, 0, 0, 0.384); */
-}
-
 #noClick {
   width: 2em;
   display: block;
-}
-
-.innerTilt {
-  transform: translateZ(20px);
 }
 
 /* shadows */
