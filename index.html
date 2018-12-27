@@ -26,7 +26,7 @@
 
 <body>
   <!--hero section -->
-  <section class="hero is-fullwidth is-fullheight is-link is-bold">
+  <section class="hero is-fullwidth is-fullheight is-info is-bold">
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 data-tilt data-tilt-max="0" data-tilt-scale="1.1" data-tilt-easing="ease-in-out" id="title" class="title is-1">Lottie
@@ -36,7 +36,7 @@
         <div data-tilt data-tilt-max="0" data-tilt-scale="1.2" data-tilt-easing="ease-in-out" id="clickMe" class="card-2 button is-light is-large is-rounded"
           onclick="displayHeart()">
           <!-- like button -->
-          <span id="like" class="innerTilt has-text-dark">
+          <span id="like" class="has-text-dark">
             <strong>like</strong>
           </span>
           <!-- heart animation -->
@@ -48,6 +48,11 @@
   </section>
 
   <!-- inlineScripts -->
+  <script>
+    function displayHeart() {
+      document.getElementById("bm").style.display = "block"
+    };
+  </script>
 
   <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.2/lottie.min.js" type="text/javascript"></script>
