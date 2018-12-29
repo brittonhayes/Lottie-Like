@@ -8,27 +8,31 @@ h1 {
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-#art{
-  width: 50rem;
+.art{
+  width: 40em;
+  bottom: 0em;
+  right: 0em;
+  margin-bottom: -5em;
+  margin-right: -5em;
   position: absolute;
   overflow: hidden;
-  bottom: -10em;
-  right: -10em;
 }
 
 /* Elements */
 #bm {
   width: 2em;
   display: none;
+  transform: translateZ(0);
 }
 
 #spark {
   position: absolute;
   left: 25%;
   top: -10%;
-  width: 1000px;
+  width: 100em;
   overflow: hidden;
   display: none;
+  transform: translateZ(0);
 }
 
 #reset {

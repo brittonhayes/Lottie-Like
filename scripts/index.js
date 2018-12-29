@@ -1,7 +1,7 @@
-var button = document.querySelector("#clickMe");
-var heart = document.querySelector("#bm");
-var reset = document.querySelector("#reset");
-var confetti = document.querySelector("#spark");
+const button = document.querySelector("#clickMe");
+const heart = document.querySelector("#bm");
+const reset = document.querySelector("#reset");
+const confetti = document.querySelector("#spark");
 
 var animation = lottie.loadAnimation({
   container: document.getElementById('bm'),
@@ -19,8 +19,11 @@ var spark = lottie.loadAnimation({
   path: './scripts/confetti.json' // the path to the animation json
 });
 
+// lottie.setQuality(low);
+
 button.addEventListener("click", function () {
-  animation.goToAndPlay(0),
+  lottie.setQuality(1),
+    animation.goToAndPlay(0),
     document.getElementById("like").innerHTML = "",
     heart.style.display = "block"
 });
@@ -35,5 +38,6 @@ reset.addEventListener("mousedown", function () {
     heart.style.display = "none",
     reset.style.display = "none",
     confetti.style.display = "block",
+    lottie.setQuality(1),
     spark.goToAndPlay(0)
 });
