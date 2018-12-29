@@ -1,5 +1,7 @@
-var button = document.getElementById("clickMe");
+var button = document.querySelector("#clickMe");
+var heart = document.querySelector("#bm");
 var reset = document.querySelector("#reset");
+var confetti = document.querySelector("#spark");
 
 var animation = lottie.loadAnimation({
   container: document.getElementById('bm'),
@@ -20,23 +22,18 @@ var spark = lottie.loadAnimation({
 button.addEventListener("click", function () {
   animation.goToAndPlay(0),
     document.getElementById("like").innerHTML = "",
-    document.getElementById("bm").style.display = "block"
+    heart.style.display = "block"
 });
-
 
 animation.addEventListener("complete", function () {
   animation.goToAndStop(2000),
-  reset.style.display = "block";
+    reset.style.display = "block";
 });
-
-// animation.getDuration(){
-//   console.log(getDuration);
-// }
 
 reset.addEventListener("mousedown", function () {
   document.getElementById("like").innerHTML = "<strong>like</strong>",
-    document.getElementById("bm").style.display = "none",
+    heart.style.display = "none",
     reset.style.display = "none",
-    spark.goToAndPlay(0),
-    lottie.loadAnimation()
+    confetti.style.display = "block",
+    spark.goToAndPlay(0)
 });
