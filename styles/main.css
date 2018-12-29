@@ -4,12 +4,17 @@ html {
   overflow: hidden;
 }
 
+h1 {
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
 #art{
-  width: 35rem;
+  width: 50rem;
   position: absolute;
   overflow: hidden;
   bottom: 0;
   right: 0;
+  margin: -10em;
 }
 
 /* Elements */

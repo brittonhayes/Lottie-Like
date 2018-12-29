@@ -31,7 +31,7 @@ animation.addEventListener("complete", function () {
 });
 
 reset.addEventListener("mousedown", function () {
-  document.getElementById("like").innerHTML = "<strong>like</strong>",
+  document.getElementById("like").innerHTML = "<strong>Fun, right?</strong>",
     heart.style.display = "none",
     reset.style.display = "none",
     confetti.style.display = "block",
