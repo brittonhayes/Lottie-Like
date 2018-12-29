@@ -10,6 +10,21 @@ html {
   display: none;
 }
 
+#spark {
+  position: absolute;
+  left: 25%;
+  top: -10%;
+  width: 1000px;
+  overflow: hidden;
+}
+
+#reset {
+  position:absolute;
+  top:1em;
+  right: 1em;
+  display: none;
+}
+
 /* interactions */
 #noClick {
   width: 2em;
