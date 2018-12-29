@@ -12,9 +12,8 @@ h1 {
   width: 50rem;
   position: absolute;
   overflow: hidden;
-  bottom: 0;
-  right: 0;
-  margin: -10em;
+  bottom: -10em;
+  right: -10em;
 }
 
 /* Elements */
