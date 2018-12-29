@@ -4,6 +4,14 @@ html {
   overflow: hidden;
 }
 
+#art{
+  width: 35rem;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+}
+
 /* Elements */
 #bm {
   width: 2em;
@@ -21,19 +29,13 @@ html {
 
 #reset {
   position:absolute;
-  top:1em;
-  right: 1em;
+  top:0;
+  right: 0;
+  margin: 1em;
   display: none;
 }
 
-/* interactions */
-#noClick {
-  width: 2em;
-  display: block;
-}
-
 /* shadows */
-
 .card-2 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
