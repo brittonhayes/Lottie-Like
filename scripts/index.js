@@ -13,7 +13,7 @@ var spark = lottie.loadAnimation({
   container: document.getElementById('spark'),
   renderer: 'svg',
   loop: false,
-  autoplay: true,
+  autoplay: false,
   path: './scripts/confetti.json' // the path to the animation json
 });
 
