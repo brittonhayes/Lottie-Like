@@ -8,13 +8,11 @@ h1 {
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-.art{
-  width: 40em;
-  bottom: 0em;
-  right: 0em;
-  margin-bottom: -5em;
-  margin-right: -5em;
+#art {
   position: absolute;
+  width: 400px;
+  bottom: 0;
+  right: 0;
   overflow: hidden;
 }
 
@@ -36,8 +34,8 @@ h1 {
 }
 
 #reset {
-  position:absolute;
-  top:0;
+  position: absolute;
+  top: 0;
   right: 0;
   margin: 1em;
   display: none;
