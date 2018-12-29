@@ -16,6 +16,7 @@ html {
   top: -10%;
   width: 1000px;
   overflow: hidden;
+  display: none;
 }
 
 #reset {
