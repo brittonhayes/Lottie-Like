@@ -10,7 +10,7 @@ h1 {
 
 /* Elements */
 #bm {
-  width: 2em;
+  width: 3.6rem;
   display: none;
 }
 
@@ -21,7 +21,7 @@ h1 {
   width: 100em;
   overflow: hidden;
   display: none;
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
 }
 
 #reset {
