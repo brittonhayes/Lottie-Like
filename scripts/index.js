@@ -24,7 +24,7 @@ var spark = lottie.loadAnimation({
 button.addEventListener("click", function () {
   lottie.setQuality(1),
     animation.goToAndPlay(0),
-    document.getElementById("like").innerHTML = "",
+    document.getElementById("like").style.display = "none",
     heart.style.display = "block"
 });
 
@@ -34,8 +34,8 @@ animation.addEventListener("complete", function () {
 });
 
 reset.addEventListener("mousedown", function () {
-  document.getElementById("like").innerHTML = "<strong>Fun, right?</strong>",
     heart.style.display = "none",
+    document.getElementById("like").style.display = "block",
     reset.style.display = "none",
     confetti.style.display = "block",
     lottie.setQuality(1),
