@@ -8,29 +8,20 @@ h1 {
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-#art {
-  position: absolute;
-  width: 400px;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
-}
-
 /* Elements */
 #bm {
   width: 2em;
   display: none;
-  transform: translateZ(0);
 }
 
 #spark {
   position: absolute;
-  left: 25%;
-  top: -10%;
+  left: 0;
+  top: 0;
   width: 100em;
   overflow: hidden;
   display: none;
-  transform: translateZ(0);
+  mix-blend-mode: overlay;
 }
 
 #reset {
