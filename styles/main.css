@@ -18,6 +18,7 @@ h1 {
   position: absolute;
   left: 0;
   top: 0;
+  margin-right: 20em;
   width: 100em;
   overflow: hidden;
   display: none;
