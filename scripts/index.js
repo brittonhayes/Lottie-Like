@@ -24,6 +24,8 @@ var spark = lottie.loadAnimation({
 button.addEventListener("click", function () {
   lottie.setQuality(1),
     animation.goToAndPlay(0),
+    spark.goToAndPlay(0),
+    confetti.style.display = "block",
     document.getElementById("like").style.display = "none",
     heart.style.display = "block"
 });
