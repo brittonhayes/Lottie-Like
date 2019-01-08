@@ -1,6 +1,6 @@
 # Lottie-Like
 
-![Preview Image](https://github.com/brittonhayes/Lottie-Like/img/preview.PNG)
+![Preview Image](https://github.com/brittonhayes/Lottie-Like/blob/master/img/preview.PNG?raw=true)
 
 ## What does it do?
 
