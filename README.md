@@ -1,5 +1,7 @@
 # Lottie-Like
 
+![Preview Image](https://github.com/brittonhayes/Lottie-Like/img/preview.PNG)
+
 ## What does it do?
 
 This project is a short demonstration and implementation of [Lottie.js](https://airbnb.io/lottie/web/web.html)
